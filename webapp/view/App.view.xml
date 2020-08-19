@@ -4,12 +4,32 @@
    resourceBundleAlias="i18n"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-   <Button
-      text="{i18n>showHelloButtonText}"
-      press=".onShowHello"/>
-   <Input
-      value="{/recipient/name}"
-      valueLiveUpdate="true"
-      description="{/recipient/name}"
-      width="60%"/>
+   <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <VBox class="sapUiMediumMargin">
+                            <!--<Button text="Sort" press="changeSorting"></Button>-->
+                            <!--<Button text="Group" press="changeGrouping"></Button>-->
+                            <!--<SearchField placeholder="search" liveChange="onSearch"/>-->
+                            <List id="employeesList" headerText="Employees" items="{userModel>/data}">
+                                <CustomListItem>
+                                    <HBox class="sapUiTinyMargin">
+                                        <Image src="{userModel>avatar}" alt="{userModel>first_name}"></Image>
+                                        <VBox class="sapUiTinyMargin">
+                                            <Text text="{userModel>first_name} {userModel>last_name}"></Text>
+                                            <Link href="mailTo:{userModel>email}" text="{userModel>email}"></Link>
+                                            <Text text="Team {userModel>team}"></Text>
+                                            <Text text="{= ${userModel>yos} > 5 ? ${userModel>team} : 'HRVt' }"/>
+                                        </VBox>
+                                    </HBox>
+                                </CustomListItem>
+                            </List>
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
 </mvc:View>

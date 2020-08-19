@@ -1,0 +1,97 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@sap.com",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "location": "Amsterdam",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+            "team":"HRVT",
+            "yos":1
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@sap.com",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+            "team":"ARES",
+            "yos":6
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@sap.com",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg",
+            "team":"C4C",
+            "yos":9
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@sap.com",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg",
+            "team":"C4C",
+            "location": "US",
+            "yos":15
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@sap.com",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg",
+            "team":"ARES",
+            "location": "India",
+            "yos":6
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@sap.com",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+            "team":"HRVT",
+            "yos":1
+        },
+        {
+            "id": 7,
+            "email": "michael.lawson@sap.com",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg",
+            "team":"ARES",
+            "yos":3
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@sap.com",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
+            "team":"ARES",
+            "yos":7
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@sap.com",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg",
+            "team":"C4C",
+            "yos":10
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@sap.com",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg",
+            "team":"HRVT",
+            "yos":1
+        }
+    ]
+}
