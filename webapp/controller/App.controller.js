@@ -14,7 +14,6 @@ sap.ui.define([
 				url: "https://reqres.in/api/users",
 				method: "GET",
 				success: function (data) {
-					console.log(data);
 					var oModel = new JSONModel({});
 					oModel.setData(data);
 					that.getView().setModel(oModel, "userModel");
